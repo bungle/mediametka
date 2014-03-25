@@ -5,7 +5,7 @@ body {
     /*background-image: url(../img/bg-model.png);*/
     background-position: top center;
     background-repeat: no-repeat;
-    font-family: "Futura Medium", serif;
+    font-family: "Futura Medium", sans-serif;
     line-height: 1.75em;
 }
 .navbar-default {
@@ -91,7 +91,7 @@ body {
 .box > div > h3 > small {
     color: #fff;
     font-size: 55%;
-    font-family: "Futura Heavy", serif;
+    font-family: "Futura Heavy", sans-serif;
 }
 @media(max-width:767px) {
 }
