@@ -64,6 +64,35 @@ body {
 .carousel-caption p {
     line-height: 1.5em;
 }
+.cyan {
+    background-color: #04bdbf;
+}
+.yellow {
+    background-color: #efbd0f;
+}
+.red {
+    background-color: #e1653f;
+}
+.dark-cyan {
+    background-color: #1f8282;
+}
+.box > div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10% 10%;
+    color: #fff;
+}
+.box > div > h3 {
+    font-family: 'Caecilia eText', serif;
+    line-height: 1.5em;
+    font-size: 185%;
+}
+.box > div > h3 > small {
+    color: #fff;
+    font-size: 55%;
+    font-family: "Futura Heavy", serif;
+}
 @media(max-width:767px) {
 }
 @media(min-width:600px) {
