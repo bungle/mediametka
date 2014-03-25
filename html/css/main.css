@@ -1,16 +1,13 @@
-
 #mfPreviewBarShow, #mfPreviewBar {
     display: none !important;
 }
-
 body {
-    background-image: url(../img/bg-smodel.png);
+    /*background-image: url(../img/bg-model.png);*/
     background-position: top center;
     background-repeat: no-repeat;
     font-family: "Futura Medium", serif;
     line-height: 1.75em;
 }
-
 .navbar-default {
     background-color: transparent;
     background-image: none;
@@ -19,13 +16,6 @@ body {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
-/*
-font-family: 'Caecilia eText Bold'
-font-family: 'Caecilia eText'
-
-*/
-
 .navbar {
     border-radius: 0;
     font-family: "Caecilia eText", serif;
@@ -35,33 +25,23 @@ font-family: 'Caecilia eText'
     border: 0;
 
 }
-
-.nav>li:last-child {
-
-}
-
 .navbar-brand {
     height: 93px;
     padding: 0;
 }
-
 .navbar-default .navbar-nav>li>a {
     color: #000;
 }
-
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #000;
 }
-
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 0;
 }
-
 .navbar-toggle {
     margin-top: 30px;
     margin-bottom: 29px;
 }
-
 .carousel .item img {
     width: 100%;
 }
@@ -70,32 +50,29 @@ font-family: 'Caecilia eText'
     right: 15%;
     bottom: 24%;
 }
-
 .carousel-caption h3 {
     font-size: 125%;
 }
 .carousel-caption p {
     font-size: 90%;
 }
-
 .carousel-caption h3 {
     line-height: 1.5em;
     font-family: "Caecilia eText Bold", serif;
     text-transform: uppercase;
 }
-
 .carousel-caption p {
     line-height: 1.5em;
 }
-
-@media(max-width:767px){}
-@media(min-width:600px){
+@media(max-width:767px) {
+}
+@media(min-width:600px) {
     .carousel-caption {
         left: 30%;
         right: 30%;
     }
 }
-@media(min-width:768px){
+@media(min-width:768px) {
     .navbar {
         font-size: 12px;
     }
@@ -113,7 +90,7 @@ font-family: 'Caecilia eText'
         font-size: 100%;
     }
 }
-@media(min-width:992px){
+@media(min-width:992px) {
     .navbar {
         font-size: 14px;
     }
@@ -135,4 +112,5 @@ font-family: 'Caecilia eText'
         font-size: 125%;
     }
 }
-@media(min-width:1200px){}
+@media(min-width:1200px) {
+}
