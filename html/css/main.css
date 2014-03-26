@@ -175,7 +175,7 @@ header .lead {
     margin-bottom: 15px;
 }
 .box > div.white {
-    padding: 3% 10% 15% 8%;
+    padding: 3% 10% 10% 10%;
     margin-bottom: 15px;
 }
 .box > div.white > hr {
@@ -235,6 +235,12 @@ header .lead {
         overflow: hidden;
         padding-bottom: 100%;
         margin-bottom: -100%;
+    }
+    .box > div.white {
+        min-height: 350px;
+        max-height: 350px;
+        height: 350px;
+        overflow: hidden;
     }
     .navbar {
         font-size: 12px;
