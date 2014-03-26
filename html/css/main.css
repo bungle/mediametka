@@ -94,6 +94,20 @@ header .lead {
     background-color: #04bdbf;
     color: #fff;
 }
+.cyan-gradient {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #04bdbf),
+        color-stop(1, #10c0c2)
+    );
+    background-image: -o-linear-gradient(bottom, #04bdbf 0%, #10c0c2 100%);
+    background-image: -moz-linear-gradient(bottom, #04bdbf 0%, #10c0c2 100%);
+    background-image: -webkit-linear-gradient(bottom, #04bdbf 0%, #10c0c2 100%);
+    background-image: -ms-linear-gradient(bottom, #04bdbf 0%, #10c0c2 100%);
+    background-image: linear-gradient(to bottom, #04bdbf 0%, #10c0c2 100%);
+}
 .yellow {
     background-color: #efbd0f;
     color: #fff;
@@ -171,6 +185,10 @@ header .lead {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.cyan-gradient .box > div.white > hr {
+    color: #04bdbf;
+    background-color: #04bdbf;
+}
 .yellow-gradient .box > div.white > hr {
     color: #efbd0f;
     background-color: #efbd0f;
@@ -192,6 +210,9 @@ header .lead {
     height: 36px;
     padding: 0;
     margin: 0;
+}
+.cyan-gradient .box > div.white > a > span {
+  background-color: #68d7d9;
 }
 .yellow-gradient .box > div.white > a > span {
     background-color: #f5d76f;
