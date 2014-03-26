@@ -118,6 +118,20 @@ header .lead {
 .dark-cyan {
     background-color: #1f8282;
 }
+.green-gradient {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #04bf95),
+        color-stop(1, #10c29a)
+    );
+    background-image: -o-linear-gradient(bottom, #04bf95 0%, #10c29a 100%);
+    background-image: -moz-linear-gradient(bottom, #04bf95 0%, #10c29a 100%);
+    background-image: -webkit-linear-gradient(bottom, #04bf95 0%, #10c29a 100%);
+    background-image: -ms-linear-gradient(bottom, #04bf95 0%, #10c29a 100%);
+    background-image: linear-gradient(to bottom, #04bf95 0%, #10c29a 100%);
+}
 .box > div {
     width: 100%;
     height: 100%;
@@ -151,13 +165,19 @@ header .lead {
     margin-bottom: 15px;
 }
 .box > div.white > hr {
-    color: #efbd0f;
-    background-color: #efbd0f;
     width: 96px;
     height: 3px;
     border: 0;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.yellow-gradient .box > div.white > hr {
+    color: #efbd0f;
+    background-color: #efbd0f;
+}
+.green-gradient .box > div.white > hr {
+    color: #04bf95;
+    background-color: #04bf95;
 }
 .box > div.white > a {
     display: block;
@@ -168,11 +188,16 @@ header .lead {
 .box > div.white > a > span {
     color: #fff;
     line-height: 36px;
-    background-color: #f5d76f;
     width: 36px;
     height: 36px;
     padding: 0;
     margin: 0;
+}
+.yellow-gradient .box > div.white > a > span {
+    background-color: #f5d76f;
+}
+.green-gradient .box > div.white > a > span {
+    background-color: #68d9bf;
 }
 @media(min-width:600px) {
     .carousel-caption h3 {
