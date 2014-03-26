@@ -47,6 +47,8 @@ body {
 }
 .carousel .item img {
     width: 100%;
+    min-height: 210px;
+    max-height: 484px;
 }
 .carousel-caption {
     left: 15%;
