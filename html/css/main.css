@@ -9,6 +9,13 @@ body {
     line-height: 1.75em;
     color: white;
 }
+.header-image{
+    margin-top: 40px;
+    background: url("../img/metka/toiminnan-esittely/header.jpg") bottom center no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
 .navbar-default {
     background-color: transparent;
     background-image: none;
@@ -151,6 +158,10 @@ header .lead {
     height: 100%;
     text-align: center;
     padding: 10% 10% 15% 10%;
+}
+.box > div.sub {
+    padding: 10% 20% 15% 20%;
+    font-size: 20px;
 }
 .box > div > h3 {
     font-family: 'Caecilia eText', serif;
