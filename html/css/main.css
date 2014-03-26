@@ -51,12 +51,7 @@ body {
     max-height: 484px;
 }
 .carousel-caption {
-    left: 15%;
-    right: 15%;
     bottom: 24%;
-}
-.carousel-caption h3 {
-    font-size: 125%;
 }
 .carousel-caption hr {
     color: #ffd16d;
@@ -65,15 +60,14 @@ body {
     height: 3px;
     border: 0;
 }
-.carousel-caption p {
-    font-size: 90%;
-}
 .carousel-caption h3 {
+    font-size: 125%;
     line-height: 1.5em;
     font-family: "Caecilia eText Bold", serif;
     text-transform: uppercase;
 }
 .carousel-caption p {
+    font-size: 90%;
     line-height: 1.5em;
 }
 header {
@@ -180,19 +174,20 @@ header .lead {
     padding: 0;
     margin: 0;
 }
-@media(max-width:767px) {
-}
 @media(min-width:600px) {
-    .carousel-caption {
-        left: 30%;
-        right: 30%;
+    .carousel-caption h3 {
+        font-size: 150%;
     }
+    .carousel-caption p {
+        font-size: 110%;
+    }
+}
+@media(max-width:767px) {
 }
 @media(min-width:768px) {
     .navbar {
         font-size: 12px;
     }
-
     .nav>li>a {
         padding: 10px;
         margin: 27px 0 26px 0;
@@ -234,7 +229,7 @@ header .lead {
         font-size: 200%;
     }
     .carousel-caption p {
-        font-size: 100%;
+        font-size: 115%;
     }
     .box.left {
         padding-right: 7px;
@@ -255,8 +250,6 @@ header .lead {
     }
     .carousel-caption {
         bottom: 32%;
-        left: 30%;
-        right: 30%;
     }
     .carousel-caption h3 {
         font-size: 225%;
