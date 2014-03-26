@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     font-family: "Futura Medium", sans-serif;
     line-height: 1.75em;
+    color: white;
 }
 .navbar-default {
     background-color: transparent;
@@ -23,7 +24,6 @@ body {
     min-height: 93px;
     margin-bottom: 0;
     border: 0;
-
 }
 .navbar-nav {
     margin: 0 -15px;
@@ -74,11 +74,47 @@ body {
 .carousel-caption p {
     line-height: 1.5em;
 }
+header {
+    text-align: center;
+}
+header .row > div {
+    padding: 4% 15%;
+}
+header h1 {
+    font-family: "Caecilia eText Bold", serif;
+    padding-bottom: 0.5em;
+}
+header .lead {
+    font-family: "Futura Heavy", sans-serif;
+    font-size: 105%;
+    line-height: 1.5em;
+}
+.white {
+    position: relative;
+    background-color: #fff;
+    color: #000;
+}
 .cyan {
     background-color: #04bdbf;
+    color: #fff;
 }
 .yellow {
     background-color: #efbd0f;
+    color: #fff;
+}
+.yellow-gradient {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #EFBE0F),
+        color-stop(1, #F0C21A)
+    );
+    background-image: -o-linear-gradient(bottom, #EFBE0F 0%, #F0C21A 100%);
+    background-image: -moz-linear-gradient(bottom, #EFBE0F 0%, #F0C21A 100%);
+    background-image: -webkit-linear-gradient(bottom, #EFBE0F 0%, #F0C21A 100%);
+    background-image: -ms-linear-gradient(bottom, #EFBE0F 0%, #F0C21A 100%);
+    background-image: linear-gradient(to bottom, #EFBE0F 0%, #F0C21A 100%);
 }
 .red {
     background-color: #e1653f;
@@ -91,7 +127,6 @@ body {
     height: 100%;
     text-align: center;
     padding: 10% 10%;
-    color: #fff;
 }
 .box > div > h3 {
     font-family: 'Caecilia eText', serif;
@@ -103,6 +138,9 @@ body {
     font-size: 55%;
     font-family: "Futura Heavy", sans-serif;
 }
+.box > div.white > h3 > small {
+    color: #000;
+}
 .box > div > hr {
     color: #fff;
     background-color: #fff;
@@ -111,6 +149,34 @@ body {
     border: 0;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.box > div.white {
+    padding: 3% 10%;
+    margin-bottom: 15px;
+}
+.box > div.white > hr {
+    color: #efbd0f;
+    background-color: #efbd0f;
+    width: 96px;
+    height: 3px;
+    border: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box > div.white > a {
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.box > div.white > a > span {
+    color: #fff;
+    line-height: 36px;
+    background-color: #f5d76f;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
 }
 @media(max-width:767px) {
 }
@@ -167,6 +233,12 @@ body {
     }
     .carousel-caption p {
         font-size: 100%;
+    }
+    .box.left {
+        padding-right: 7px;
+    }
+    .box.right {
+        padding-left: 7px;
     }
 }
 @media(min-width:992px) {
