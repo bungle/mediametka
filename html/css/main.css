@@ -233,8 +233,6 @@ header .lead {
 @media(min-width:768px) {
     .col-sm-6 {
         overflow: hidden;
-    }
-    .col-sm-6 {
         padding-bottom: 100%;
         margin-bottom: -100%;
     }
