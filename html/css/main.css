@@ -52,11 +52,15 @@ body {
     margin-top: 30px;
     margin-bottom: 29px;
 }
+.carousel {
+    min-height: 165px;
+}
 .carousel .item {
     max-height: 484px;
     overflow: hidden;
 }
 .carousel .item img {
+    min-height: 165px;
     width: 100%;
 }
 .carousel-caption hr {
