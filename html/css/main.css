@@ -296,13 +296,13 @@ header .lead {
     .dropdown-menu {
         border-radius: 0;
         padding: 0;
-        border-bottom: none;
+        border: none;
         min-width: 273px;
     }
     .dropdown-menu>li {
         background-color: #f3f3f3;
         background-image: none;
-        border-bottom: 1px solid #525252;
+        border-top: 1px solid #525252;
     }
     .dropdown-menu>li>a {
         padding-top: 6px;
