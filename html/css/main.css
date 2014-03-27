@@ -195,6 +195,15 @@ header .lead {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.box > div > hr.yellow {
+    color: #ffd16d;
+    background-color: #ffd16d;
+    width: 96px;
+    height: 3px;
+    border: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .box > div.white {
     padding: 3% 10% 10% 10%;
     margin-bottom: 15px;
