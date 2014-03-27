@@ -91,6 +91,7 @@ header .row > div {
 header h1 {
     font-family: "Caecilia eText Bold", serif;
     padding-bottom: 0.5em;
+    font-size: 28px;
 }
 header .lead {
     font-family: "Futura Heavy", sans-serif;
@@ -171,7 +172,7 @@ header .lead {
 .box > div > h3 {
     font-family: 'Caecilia eText', serif;
     line-height: 1.5em;
-    font-size: 185%;
+    font-size: 165%;
 }
 .box > div > h3 > small {
     color: #fff;
@@ -236,6 +237,14 @@ header .lead {
 .green-gradient .box > div.white > a > span {
     background-color: #68d9bf;
 }
+@media(min-width:400px) {
+    header h1 {
+        font-size: 36px;
+    }
+    .box > div > h3 {
+        font-size: 185%;
+    }
+}
 @media(min-width:600px) {
     .carousel-caption h3 {
         font-size: 150%;
@@ -252,10 +261,11 @@ header .lead {
 @media(max-width:767px) {
 }
 @media(min-width:768px) {
-    .equalize {
+    .box > div {
+        min-height: 390px;
+        max-height: 390px;
+        height: 390px;
         overflow: hidden;
-        padding-bottom: 100%;
-        margin-bottom: -100%;
     }
     .box > div.white {
         min-height: 350px;
