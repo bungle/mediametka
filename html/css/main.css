@@ -67,8 +67,10 @@ body {
     color: #ffd16d;
     background-color: #ffd16d;
     width: 85px;
-    height: 3px;
+    height: 2px;
     border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .carousel-caption h3 {
     font-size: 125%;
@@ -240,6 +242,11 @@ header .lead {
     }
     .carousel-caption p {
         font-size: 110%;
+    }
+    .carousel-caption hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 3px;
     }
 }
 @media(max-width:767px) {
