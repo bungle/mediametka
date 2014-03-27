@@ -52,13 +52,15 @@ body {
     margin-top: 30px;
     margin-bottom: 29px;
 }
+.carousel .item {
+    max-height: 484px;
+    overflow: hidden;
+}
 .carousel .item img {
     width: 100%;
-    min-height: 210px;
-    max-height: 484px;
 }
 .carousel-caption {
-    bottom: 24%;
+    bottom: 10%;
 }
 .carousel-caption hr {
     color: #ffd16d;
@@ -231,7 +233,15 @@ header .lead {
 .green-gradient .box > div.white > a > span {
     background-color: #68d9bf;
 }
+@media(min-width:450px) {
+    .carousel-caption {
+        bottom: 14%;
+    }
+}
 @media(min-width:600px) {
+    .carousel-caption {
+        bottom: 24%;
+    }
     .carousel-caption h3 {
         font-size: 150%;
     }
