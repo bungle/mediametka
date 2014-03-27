@@ -308,6 +308,20 @@ header .lead {
         padding-top: 6px;
         line-height: 1.75em;
     }
+    .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+        background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #EFBE0F),
+            color-stop(1, #F0C21A)
+        );
+        background-image: -o-linear-gradient(bottom, #EFBE0F 0%, #F0C21A 100%);
+        background-image: -moz-linear-gradient(bottom, #EFBE0F 0%, #F0C21A 100%);
+        background-image: -webkit-linear-gradient(bottom, #EFBE0F 0%, #F0C21A 100%);
+        background-image: -ms-linear-gradient(bottom, #EFBE0F 0%, #F0C21A 100%);
+        background-image: linear-gradient(to bottom, #EFBE0F 0%, #F0C21A 100%);
+    }
     /*
     .navbar-default .navbar-nav>li>a:hover>span,
     .navbar-default .navbar-nav>li>a:focus>span {
