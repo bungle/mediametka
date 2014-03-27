@@ -48,6 +48,10 @@ body {
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 0;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #fff;
+    color: #efbd0f;
+}
 .navbar-toggle {
     margin-top: 30px;
     margin-bottom: 29px;
@@ -277,14 +281,32 @@ header .lead {
         font-size: 12px;
     }
     .nav>li>a {
-        padding: 10px;
-        margin: 27px 0 26px 0;
+        padding: 37px 10px 36px 10px;
     }
     .navbar-default .navbar-nav>li>a:hover,
     .navbar-default .navbar-nav>li>a:focus {
         color: #efbd0f;
         background: none;
         background-color: transparent;
+    }
+    .navbar-right .dropdown-menu {
+        right: auto;
+        left: 0;
+    }
+    .dropdown-menu {
+        border-radius: 0;
+        padding: 0;
+        border-bottom: none;
+        min-width: 273px;
+    }
+    .dropdown-menu>li {
+        background-color: #f3f3f3;
+        background-image: none;
+        border-bottom: 1px solid #525252;
+    }
+    .dropdown-menu>li>a {
+        padding-top: 6px;
+        line-height: 1.75em;
     }
     /*
     .navbar-default .navbar-nav>li>a:hover>span,
@@ -331,7 +353,7 @@ header .lead {
         margin-right: 50px;
     }
     .nav>li>a {
-        padding: 10px 15px;
+        padding: 37px 15px 36px 15px;
     }
     .carousel-caption h3 {
         font-size: 225%;
