@@ -59,9 +59,6 @@ body {
 .carousel .item img {
     width: 100%;
 }
-.carousel-caption {
-    bottom: 10%;
-}
 .carousel-caption hr {
     color: #ffd16d;
     background-color: #ffd16d;
@@ -233,15 +230,7 @@ header .lead {
 .green-gradient .box > div.white > a > span {
     background-color: #68d9bf;
 }
-@media(min-width:450px) {
-    .carousel-caption {
-        bottom: 14%;
-    }
-}
 @media(min-width:600px) {
-    .carousel-caption {
-        bottom: 24%;
-    }
     .carousel-caption h3 {
         font-size: 150%;
     }
@@ -300,9 +289,6 @@ header .lead {
         background: none;
         background-color: transparent;
     }
-    .carousel-caption {
-        bottom: 28%;
-    }
     .carousel-caption h3 {
         font-size: 200%;
     }
@@ -325,9 +311,6 @@ header .lead {
     }
     .nav>li>a {
         padding: 10px 15px;
-    }
-    .carousel-caption {
-        bottom: 32%;
     }
     .carousel-caption h3 {
         font-size: 225%;
