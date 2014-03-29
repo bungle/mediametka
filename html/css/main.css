@@ -250,6 +250,20 @@ header .lead {
 .green-gradient .box > div.white > a > span {
     background-color: #68d9bf;
 }
+.intro
+{
+    line-height: 200%;
+}
+.quote
+{
+     /*font-size: 800% !important;*/
+}
+.quotetext
+{
+    color: black;
+    line-height: 200%;
+     /*font-size: 800% !important;*/
+}
 @media(min-width:400px) {
     header h1 {
         font-size: 36px;
