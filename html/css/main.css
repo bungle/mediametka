@@ -97,6 +97,9 @@ header {
 header .row > div {
     padding: 4% 15%;
 }
+header.content .row > div {
+    padding: 7% 15%;
+}
 header h1 {
     font-family: "Caecilia eText Bold", serif;
     padding-bottom: 0.5em;
