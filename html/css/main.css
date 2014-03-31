@@ -256,7 +256,15 @@ header .lead {
 }
 .quote
 {
-     /*font-size: 800% !important;*/
+     float: middle;
+     height: 45px;
+     margin-top: -130px;
+     /*padding-top: 45px;*/
+     /*margin-bottom: -50px;*/
+     font-size: 700%;
+     /*color: #FF0000;*/
+     padding-bottom: 110px;
+     font-size: 800% !important;
 }
 .quotetext
 {
