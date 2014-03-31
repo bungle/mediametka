@@ -262,13 +262,7 @@ header .lead {
 {
     line-height: 200%;
 }
-h3.quote
-{
-    margin-top: -94px;
-    margin-bottom: -75px;
-    font-size: 150px !important;
 
-}
 .quotetext
 {
     color: black;
@@ -487,6 +481,13 @@ h3.quote
     .container.white.text > .row > .col-sm-6:last-child {
         padding-left: 3%;
         padding-right: 5%;
+    }
+    h3.quote
+    {
+        margin-top: -94px;
+        margin-bottom: -75px;
+        font-size: 150px !important;
+
     }
 }
 @media(min-width:992px) {
