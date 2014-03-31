@@ -345,6 +345,12 @@ header .lead {
 .row ul {
     padding-left: 15px;
 }
+h3.quote
+{
+    margin-top: -53px;
+    margin-bottom: -122px;
+    font-size: 150px !important;
+}
 @media(min-width:400px) {
     header h1 {
         font-size: 36px;
