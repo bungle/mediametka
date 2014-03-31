@@ -342,7 +342,9 @@ header .lead {
     padding-left: 5%;
     padding-right: 5%;
 }
-
+.row ul {
+    padding-left: 15px;
+}
 @media(min-width:400px) {
     header h1 {
         font-size: 36px;
