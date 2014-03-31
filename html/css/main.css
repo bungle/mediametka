@@ -249,6 +249,12 @@ header .lead {
     padding: 0;
     margin: 0;
 }
+.subcontent.box > div{
+    padding-top: 20px;
+    padding-bottom: 1px;
+    height: auto;
+    min-height: 40px;
+}
 .cyan-gradient .box > div.white > a > span {
   background-color: #68d7d9;
 }
@@ -349,6 +355,10 @@ header .lead {
         margin-top: -53px;
         margin-bottom: -122px;
         font-size: 150px !important;
+    }
+    .full{
+        width: 100%;
+        padding-top: 20px;
     }
 }
 @media(min-width:600px) {
