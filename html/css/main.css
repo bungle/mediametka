@@ -273,7 +273,7 @@ header .lead {
 {
     color: black;
     line-height: 200%;
-     /*font-size: 800% !important;*/
+    font-size: 150%;
 }
 .panel {
     border: none;
@@ -495,9 +495,8 @@ header .lead {
     h3.quote
     {
         margin-top: -94px;
-        margin-bottom: -75px;
-        font-size: 150px !important;
-
+        margin-bottom: -110px;
+        font-size: 150px;
     }
 }
 @media(min-width:992px) {
